@@ -10,4 +10,3 @@ lastupdated: "2017-12-01"
 {:shortdesc: .shortdesc}
 
 # Coming soon...
-{: #gettingstarted}
