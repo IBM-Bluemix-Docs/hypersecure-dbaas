@@ -4,9 +4,42 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="hypersecure-dbaas" audience="service" href="/docs/services/hypersecure-dbaas/index.html"}
-HyperSecure DBaaS
+IBM HyperSecure DBaaS
 
     {: .navgroup id="learn"}
-    index.md   
+    index.md
     {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+	Using the Web User Interface
+		webui-cluster.md
+		webui-db.md
+		webui-dbinst.md
+		webui-dbuser.md
+
+	api.md
+
+	{: .topicgroup}
+    Using the command-line interface
+        dmclient-install.md
+        dmclient-run.md
+	{: .navgroup-end}
+
+    {: .navgroup id="reference"}
+	[RESTful API](https://api.hypersecuredbaas.ibm.com/)
 	
+	{: .topicgroup}
+	Command-line interface
+	    cli_list.md
+		cli_clusterop.md
+	    cli_dbop.md
+		cli_instop.md
+		cli_logop.md
+		cli_dbuserop.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    help-support.md
+	help-issues.md
+    {: .navgroup-end}
