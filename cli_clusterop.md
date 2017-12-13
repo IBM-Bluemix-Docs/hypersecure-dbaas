@@ -26,15 +26,14 @@ These are the cluster operation commands:
 
 ### Description
 
-Creates a database cluster. 
+Creates a database cluster.
 
 The command returns immediately with cluster status of BUILD. After about 30 seconds, a cluster status of RUNNING becomes available. To get the updated cluster status, run the [cluster-list](#cluster_list) or [cluster-show](#cluster_show) command.
 
 This command requires that you accept the IBM license. Therefore, when issuing the command, preface it with the **\./dmclient --accept-license** option, as in this example:
 
-```
-**\./dmclient --accept-license cluster-create myClusterName user password**
-```
+<pre><code class="hljs"># ./dmclient --accept-license cluster-create myClusterName user password
+</code></pre>
 
 ### Usage
 
