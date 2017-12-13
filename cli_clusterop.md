@@ -21,11 +21,12 @@ These are the cluster operation commands:
 - [cluster-show](#cluster_show)
 - [cluster-delete](#cluster_delete)
 
-## <a id="cluster_create"></a>cluster-create command
+## cluster-create command
+{: #cluster_create}
 
 ### Description
 
-Creates a database cluster.
+Creates a database cluster. 
 
 The command returns immediately with cluster status of BUILD. After about 30 seconds, a cluster status of RUNNING becomes available. To get the updated cluster status, run the [cluster-list](#cluster_list) or [cluster-show](#cluster_show) command.
 
@@ -45,7 +46,8 @@ This command requires that you accept the IBM license. Therefore, when issuing t
 | *admin_name*     |  The database administrator name to manage the database cluster |
 | *admin_password* |  The password of database administrator                         |
 
-## <a id="cluster_list"></a>cluster-list command
+## cluster-list command
+{: #cluster_list}
 
 ### Description
 
@@ -56,7 +58,8 @@ Lists all the clusters that have been created.
 
 The command has no parameters.
 
-## <a id="cluster_show"></a>cluster-show command
+## cluster-show command
+{: #cluster_show}
 
 ### Description
 
@@ -70,7 +73,8 @@ Shows the details of the specified cluster, including information about each rep
 | *cluster_id*     |  The ID of the cluster, as shown in the [cluster-list](#cluster_list) command |
 
 
-## <a id="cluster_delete"></a>cluster-delete command
+## cluster-delete command
+{: #cluster_delete}
 
 ### Description
 

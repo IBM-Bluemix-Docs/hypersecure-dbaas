@@ -20,11 +20,12 @@ These are the instance operation commands:
 - [instance-start](#instance_start)
 - [instance-restart](#instance_restart)
 
-## <a id="instance_stop"></a>instance-stop command
+## instance-stop command
+{: #instance_stop}
 
 ### Description
 
-Stops an instance (that is, a replication meber of the cluster).
+Stops an instance (that is, a replication member of the cluster).
 
 ### Usage
 
@@ -35,7 +36,8 @@ Stops an instance (that is, a replication meber of the cluster).
 | *instance_id*    |  The ID of the instance       |
 
 
-## <a id="instance_start"></a>instance-start command
+## instance-start command
+{: #instance_start}
 
 ### Description
 
@@ -50,7 +52,8 @@ Starts a stopped instance.
 | *instance_id*    |  The ID of the instance       |
 
 
-## <a id="instance_restart"></a>instance-restart command
+## instance-restart command
+{: #instance_restart}
 
 ### Description
 

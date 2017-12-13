@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-08"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -20,7 +20,8 @@ These are the database operation commands:
 - [database-list](#database_list)
 - [database-delete](#database_delete)
 
-## <a id="database_create"></a>database-create command
+## database-create command
+{: #database_create}
 
 ### Description
 
@@ -37,7 +38,8 @@ Creates a database. For MongoDB, a collection must also be created with the data
 | *collection*     |  The collection name to create |
 
 
-## <a id="database_list"></a>database-list command
+## database-list command
+{: #database_list}
 
 ### Description
 
@@ -52,7 +54,8 @@ Lists all the databases on the given cluster.
 | *cluster_id*     |  The ID of the cluster       |
 
 
-## <a id="database_delete"></a>database-delete command
+## database-delete command
+{: #database_delete}
 
 ### Description
 

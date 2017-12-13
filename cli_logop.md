@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-08"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -19,7 +19,8 @@ These are the log operation commands:
 - [log-get](#log_get)
 
 
-## <a id="log_list"></a>log-list command
+## log-list command
+{: #log_list}
 
 ### Description
 
@@ -34,7 +35,8 @@ Lists all the log files on an instance.
 | *instance_id*    |  The ID of the instance       |
 
 
-## <a id="log_get"></a>log-get command
+## log-get command
+{: #log_get}
 
 ### Description
 

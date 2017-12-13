@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-08"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -22,7 +22,8 @@ These are the database user operation commands:
 - [user-delete](#user_delete)
 
 
-## <a id="user_create"></a>user-create command
+## user-create command
+{: #user_create}
 
 ### Description
 
@@ -40,7 +41,8 @@ Creates one or more database users.
 | *db_name*        | An optional parameter specifying the name of a database for which the user will have read and write access |
 
 
-## <a id="user_list"></a>user-list command
+## user-list command
+{: #user_list}
 
 ### Description
 
@@ -55,7 +57,8 @@ Lists all the database users.
 | *cluster_id*    |  The ID of the cluster       |
 
 
-## <a id="user_show"></a>user-show command
+## user-show command
+{: #user_show}
 
 ### Description
 
@@ -71,7 +74,8 @@ Shows details about a database user.
 | *database.username* | The authentication database name and the user name, separated by a period |
 
 
-## <a id="user_delete"></a>user-delete command
+## user-delete command
+{: #user_delete}
 
 ### Description
 
