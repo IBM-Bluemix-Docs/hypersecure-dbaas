@@ -71,7 +71,5 @@ MongoDB driver, or tools like MongoDB Compass to manage the database itself.
 
 The IBM HyperSecure DBaaS dashboard provides the necessary information to connect to a database.
 You can copy the provided mongo shell command to your clipboard,
-insert the Database Admin Name as --username option,
-the Database Admin Password as --password option,
 and add the options --ssl and --sslAllowInvalidCertificates for a secure data transfer
 to set up the MongoDB tools accordingly.
