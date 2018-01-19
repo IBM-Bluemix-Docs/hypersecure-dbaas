@@ -28,7 +28,9 @@ IBM provides the CLI tool dmclient for download.
 
 ## Step 1: Obtain dmclient
 
-You can request dmclient free of charge from <dbaas.sre@de.ibm.com>.
+To obtain dmclient, download all available files from <https://github.com/IBM/dmclient>.
+
+Later, you can run dmclient from the directory where the files are located.
 
 ## Step 2: Generate an API key
 

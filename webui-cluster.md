@@ -17,8 +17,7 @@ lastupdated: "2017-12-12"
 ## Creating a database cluster
 
 <ol>
-<li>Click on the IBM HyperSecure DBaaS catalog entry to see the catalog
-details.</li>
+<li>Click on the IBM HyperSecure DBaaS catalog entry to open the service configuration screen.</li>
 <li>Enter the required values.
 	<dl>
 		<dt>Service name:</dt>

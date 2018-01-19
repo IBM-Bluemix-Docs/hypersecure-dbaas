@@ -28,18 +28,18 @@ IBM HyperSecure DBaaS
 
     {: .navgroup id="reference"}
 	[RESTful API](https://api.hypersecuredbaas.ibm.com/)
-	
+
 	{: .topicgroup}
 	Command-line interface
 	    cli_list.md
-		cli_clusterop.md
+	  	cli_clusterop.md
 	    cli_dbop.md
-		cli_instop.md
-		cli_logop.md
-		cli_dbuserop.md
+	  	cli_instop.md
+	  	cli_logop.md
+	  	cli_dbuserop.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     help-support.md
-	help-issues.md
+	  help-issues.md
     {: .navgroup-end}

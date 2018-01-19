@@ -42,7 +42,7 @@ high availability.</li>
 ##Creating a database cluster
 
 To create a database cluster, you simply enter the required values in the
-IBM HyperSecure DBaaS catalog details view and click **Create**.
+IBM HyperSecure DBaaS service configuration screen and click **Create**.
 
 After you have created the database cluster, {{site.data.keyword.IBM}} provides you the hostname and the port
 numbers of the three created database instances. You can now use this information
@@ -69,7 +69,40 @@ You can address requests to the DBaaS Manager through one of these interfaces:
 After creating a database, you can use the mongo shell, your favorite
 MongoDB driver, or tools like MongoDB Compass to manage the database itself.
 
-The IBM HyperSecure DBaaS dashboard provides the necessary information to connect to a database.
-You can copy the provided mongo shell command to your clipboard,
-and add the options --ssl and --sslAllowInvalidCertificates for a secure data transfer
-to set up the MongoDB tools accordingly.
+### Before you begin
+
+To ensure secure data transfer, obtain a Certificate Authority (CA) file from
+<https://api.hypersecuredbaas.ibm.com/cert.pem>, and copy it to the appropriate directory.
+
+### mongo shell
+
+<p>The IBM HyperSecure DBaaS dashboard provides the necessary information to connect to a database.
+<ol>
+<li>You can run the mongo shell command that is provided at the IBM HyperSecure DBaaS dashboard. Click on the icon next to the command to copy it to your clipboard.</li>
+<li>If the secure data connection fails with an SSL error, specify the obtained CA file to validate the server certificate. Add the parameter **--sslCAfile** to indicate the CA file.</li>
+</ol>
+<b>Example:</b>
+<pre><code class="hljs"># mongo 'mongodb:/&sol;&lt;<em>Hostname_1</em>&gt;&colon;&lt;<em>PortNumber_1</em>&gt;,\
+&lt;<em>Hostname_2</em>&gt;&colon;&lt;<em>PortNumber_2</em>&gt;,\
+&lt;<em>Hostname_3</em>&gt;&colon;&lt;<em>PortNumber_3</em>&gt;/admin?replicaSet=&lt;<em>replicaSetName</em>&gt;' \
+--ssl --username &lt;<em>userID</em>&gt; --password &lt;<em>password</em>&gt; --sslCAFile cert.pem</code></pre>
+Where:
+<dl>
+  <dt> &lt;<em>Hostname_i</em>&gt; </dt>
+    <dd> Is the hostname of the database replica (<em>i=1,2,3</em>) </dd>
+  <dt> &lt;<em>PortNumber_i</em>&gt; </dt>
+    <dd> Is the port number of the database replica (<em>i=1,2,3</em>) </dd>
+  <dt> &lt;<em>replicaSetName</em>&gt; </dt>
+    <dd> Is the name of your returned replica set as specified in the IBM HyperSecure DBaaS dashboard </dd>
+  <dt> &lt;<em>userID</em>&gt; </dt>
+    <dd> Is the user ID for the DBA as specified in the
+    service configuration screen </dd>
+  <dt> &lt;<em>password</em>&gt; </dt>
+    <dd> Is the password for the DBA user ID as specified in the
+    service configuration screen </dd>
+</dl>
+</p>
+
+### Other tools
+
+For other tools, such as MongoDB Compass, IBM HyperSecure DBaaS supports the *SSL server certificate validation* to connect to the host.  If needed, use the provided CA file.
