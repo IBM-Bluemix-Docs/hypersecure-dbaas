@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-01-19"
+lastupdated: "2018-01-23"
 
 ---
 
@@ -31,7 +31,7 @@ monitor databases.
 <ul>
 <li>The underlying technologies prevent {{site.data.keyword.IBM_notm}} or a third party from being able to
 access your data.
-<p>The Secure Service Container (SSC) technology protects the system via a
+<p>The IBM Secure Service Container technology protects the system via a
 tamper-proof environment. Access to the system is restricted and is only enabled
 through well-defined RESTful APIs.</p></li>
 <li>Data is encrypted at rest and in flight.</li>
