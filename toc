@@ -4,7 +4,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="hypersecure-dbaas" audience="service" href="/docs/services/hypersecure-dbaas/index.html"}
-IBM HyperSecure DBaaS
+HyperSecure DBaaS
 
     {: .navgroup id="learn"}
     index.md

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-12"
+lastupdated: "2017-02-02"
 
 ---
 {:new_window: target="_blank"}
@@ -19,7 +19,7 @@ lastupdated: "2017-12-12"
 
 {: shortdesc}
 
-IBM HyperSecure DBaaS has been tested using:
+HyperSecure DBaaS has been tested using:
 
   * Firefox version 56 and higher
   * Chrome version 61 and higher

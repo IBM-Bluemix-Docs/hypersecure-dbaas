@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-12"
+lastupdated: "2017-02-02"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-12-12"
 ## Creating a database cluster
 
 <ol>
-<li>Click on the IBM HyperSecure DBaaS catalog entry to open the service configuration screen.</li>
+<li>Click on the HyperSecure DBaaS catalog entry to open the service configuration screen.</li>
 <li>Enter the required values.
 	<dl>
 		<dt>Service name:</dt>
@@ -57,7 +57,7 @@ lastupdated: "2017-12-12"
 <p>The cluster information is displayed. The Manage tab shows the name and the ID
 of the created cluster.</p>
 
-<p>To display the IBM HyperSecure DBaaS dashboard, click **OPEN**.</p>
+<p>To display the HyperSecure DBaaS dashboard, click **OPEN**.</p>
 </li>
 </ol>
 
@@ -76,7 +76,7 @@ The displayed services contain a list of created database clusters.
 
 * In the Manage tab of the cluster information, click **OPEN**.
 
-The IBM HyperSecure DBaaS dashboard is displayed.
+The HyperSecure DBaaS dashboard is displayed.
 
 ## Deleting a database cluster
 

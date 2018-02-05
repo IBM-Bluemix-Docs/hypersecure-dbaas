@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-12"
+lastupdated: "2017-02-02"
 
 ---
 
@@ -18,7 +18,7 @@ A database cluster can host several databases.
 
 ##Before you begin
 
-In the IBM HyperSecure DBaaS dashboard, select the Databases tab.
+In the HyperSecure DBaaS dashboard, select the Databases tab.
 
 ##Creating a database
 

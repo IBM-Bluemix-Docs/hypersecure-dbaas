@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-08"
+lastupdated: "2017-02-02"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2017-12-08"
 
 # Listing commands
 
-The IBM HyperSecure DBaaS command-line interface accepts several dmclient commands.
+The HyperSecure DBaaS command-line interface accepts several dmclient commands.
 {: shortdesc}
 
 To get a list of these dmclient commands, enter:

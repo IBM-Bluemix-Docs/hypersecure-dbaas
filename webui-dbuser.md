@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-12"
+lastupdated: "2017-02-02"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-12-12"
 
 ##Before you begin
 
-In the IBM HyperSecure DBaaS dashboard, select the Users tab.
+In the HyperSecure DBaaS dashboard, select the Users tab.
 
 ##Creating a database user
 
