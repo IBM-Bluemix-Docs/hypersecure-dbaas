@@ -65,6 +65,8 @@ The value that is assigned to "apiKey" is your API key.
 <ul>
 <li>mgmt02.hypersecuredbaas.ibm.com</li>
 <li>mgmt03.hypersecuredbaas.ibm.com</li>
+<li>mgmt06.hypersecuredbaas.ibm.com</li>
+<li>mgmt07.hypersecuredbaas.ibm.com</li>
 </ul> </dd>
   <dt> &lt;<em>PortNumber</em>&gt; </dt>
     <dd> Is the port number of the DBaaS Manager. The valid port number is:
