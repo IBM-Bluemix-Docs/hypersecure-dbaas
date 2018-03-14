@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-02-02"
+lastupdated: "2017-03-12"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2017-02-02"
 # Command-line interface
 {: #commandlineinterface}
 
-The HyperSecure DBaaS command-line interface accepts several dmclient commands.
+The Hyper Protect DBaaS command-line interface accepts several dmclient commands.
 {: shortdesc}
 
 To get a list of these dmclient commands, enter:

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-12"
+lastupdated: "2017-03-13"
 
 ---
 
@@ -76,6 +76,8 @@ Define the following environment variables:
 <ul>
 <li>mgmt02.hypersecuredbaas.ibm.com</li>
 <li>mgmt03.hypersecuredbaas.ibm.com</li>
+<li>mgmt06.hypersecuredbaas.ibm.com</li>
+<li>mgmt07.hypersecuredbaas.ibm.com</li>
 </ul> </dd>
   <dt> DBAAS_MANAGER_PORT </dt>
     <dd> Port number of the DBaaS Manager. The valid port number is:

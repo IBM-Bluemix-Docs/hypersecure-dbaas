@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-02-02"
+lastupdated: "2017-03-12"
 
 ---
 
@@ -18,7 +18,7 @@ A database cluster can host several databases.
 
 ##Before you begin
 
-In the HyperSecure DBaaS dashboard, select the Databases tab.
+In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select the Databases tab.
 
 ##Creating a database
 

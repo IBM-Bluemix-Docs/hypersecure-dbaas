@@ -4,7 +4,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="hypersecure-dbaas" audience="service" href="/docs/services/hypersecure-dbaas/index.html"}
-HyperSecure DBaaS
+IBM Cloud Hyper Protect DBaaS
 
     {: .navgroup id="learn"}
     index.md
@@ -22,24 +22,31 @@ HyperSecure DBaaS
 
 	{: .topicgroup}
     Using the command-line interface
-        dmclient-install.md
-        dmclient-run.md
+		dmclient-install.md
+		dmclient-run.md
+		
+	{: .topicgroup}
+	Using Hyper Protect DBaaS with the IBM Cloud CLI
+		download_install.md
+		choose_endpoint.md
+		create_serv_inst.md
+		delete_serv_inst.md		
 	{: .navgroup-end}
-
+	
     {: .navgroup id="reference"}
 	[RESTful API](https://api.hypersecuredbaas.ibm.com/)
 
 	{: .topicgroup}
 	Command-line interface
-	    cli_list.md
-	  	cli_clusterop.md
-	    cli_dbop.md
-	  	cli_instop.md
-	  	cli_logop.md
-	  	cli_dbuserop.md
+		cli_list.md
+		cli_clusterop.md
+		cli_dbop.md
+		cli_instop.md
+		cli_logop.md
+		cli_dbuserop.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    help-support.md
-	  help-issues.md
+		help-support.md
+		help-issues.md
     {: .navgroup-end}

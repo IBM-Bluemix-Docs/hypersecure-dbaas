@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-02-02"
+lastupdated: "2017-03-12"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-02-02"
 
 ##Before you begin
 
-In the HyperSecure DBaaS dashboard, select the Instances tab.
+In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select the Instances tab.
 
 ##Starting a database instance
 

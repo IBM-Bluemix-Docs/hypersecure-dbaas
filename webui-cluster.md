@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-02-02"
+lastupdated: "2017-03-12"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-02-02"
 ## Creating a database cluster
 
 <ol>
-<li>Click on the HyperSecure DBaaS catalog entry to open the service configuration screen.</li>
+<li>Click on the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS catalog entry to open the service configuration screen.</li>
 <li>Enter the required values.
 	<dl>
 		<dt>Service name:</dt>
@@ -54,11 +54,12 @@ lastupdated: "2017-02-02"
 </li>
 <li>Click **Create**.
 
-<p>The cluster information is displayed. The Manage tab shows the name and the ID
-of the created cluster.</p>
+<p>The IBM Cloud dashboard is displayed. You might have to refresh your browser to see the new cluster, 
+which is listed in the Services section.</p></li>
 
-<p>To display the HyperSecure DBaaS dashboard, click **OPEN**.</p>
-</li>
+<li>When you select the service, the cluster information is displayed.</li>
+<li>In the Manage tab of the cluster information, click **OPEN**.
+	<p>The IBM Cloud Hyper Protect DBaaS dashboard is displayed.</p></li>
 </ol>
 
 ## Listing all database clusters
@@ -76,7 +77,7 @@ The displayed services contain a list of created database clusters.
 
 * In the Manage tab of the cluster information, click **OPEN**.
 
-The HyperSecure DBaaS dashboard is displayed.
+The {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard is displayed.
 
 ## Deleting a database cluster
 

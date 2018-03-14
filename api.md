@@ -61,10 +61,16 @@ The value that is assigned to "apiKey" is your API key.
 <p>Where:
 <dl>
   <dt> &lt;<em>DBaaSManager</em>&gt; </dt>
-    <dd> Is the hostname of the DBaaS Manager. Valid host names are:
+    <dd> Is the hostname of the DBaaS Manager. 
+	<p>Valid host names for region `United Kingdom` are:</p>
 <ul>
 <li>mgmt02.hypersecuredbaas.ibm.com</li>
 <li>mgmt03.hypersecuredbaas.ibm.com</li>
+</ul> 
+	<p>Valid host names for region `US South` are:</p>
+<ul>
+<li>mgmt06.hypersecuredbaas.ibm.com</li>
+<li>mgmt07.hypersecuredbaas.ibm.com</li>
 </ul> </dd>
   <dt> &lt;<em>PortNumber</em>&gt; </dt>
     <dd> Is the port number of the DBaaS Manager. The valid port number is:
@@ -111,6 +117,14 @@ The value that is assigned to "apiKey" is your API key.
   </tr>
     <tr>
     <td> mgmt03.hypersecuredbaas.ibm.com </td>
+    <td> 20000 </td>
+  </tr>
+  <tr>
+    <td> mgmt06.hypersecuredbaas.ibm.com </td>
+    <td> 20000 </td>
+  </tr>
+    <tr>
+    <td> mgmt07.hypersecuredbaas.ibm.com </td>
     <td> 20000 </td>
   </tr>
 </table>
@@ -172,6 +186,8 @@ Where:
 <ul>
 <li>mgmt02.hypersecuredbaas.ibm.com</li>
 <li>mgmt03.hypersecuredbaas.ibm.com</li>
+<li>mgmt06.hypersecuredbaas.ibm.com</li>
+<li>mgmt07.hypersecuredbaas.ibm.com</li>
 </ul>
 </dd>
 <dt> &lt;<em>PortNumber</em>&gt; </dt>
