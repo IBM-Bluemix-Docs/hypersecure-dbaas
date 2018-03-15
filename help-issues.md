@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-03-12"
+lastupdated: "2017-03-14"
 
 ---
 {:new_window: target="_blank"}
@@ -13,13 +13,11 @@ lastupdated: "2017-03-12"
 {:tsCauses: .tsCauses}
 {:tsResolve: .tsResolve}
 
+
 # Supported browsers
-{: #troubleshooting}
-
-
-{: shortdesc}
 
 IBM Cloud Hyper Protect DBaaS has been tested using:
+{: shortdesc}
 
   * Firefox version 56 and higher
   * Chrome version 61 and higher

@@ -47,6 +47,9 @@ IBM Cloud Hyper Protect DBaaS
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+	{: .topicgroup}
+	Troubleshooting
 		help-support.md
 		help-issues.md
     {: .navgroup-end}
+	

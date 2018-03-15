@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-03-12"
+lastupdated: "2018-03-14"
 
 ---
 {:new_window: target="_blank"}
@@ -13,8 +13,8 @@ lastupdated: "2018-03-12"
 {:tsCauses: .tsCauses}
 {:tsResolve: .tsResolve}
 
+
 # Getting help and support
-{: #troubleshooting}
 
 If you have problems, consider these techniques for troubleshooting and getting help:
 {: shortdesc}
@@ -26,7 +26,7 @@ To get in contact with the team, use one of the following options:
 
   * Submit a question through one of these forums (specifying "Hyper Protect DBaaS" in your entry):
 
-    * https://developer.ibm.com/answers/index.html
+	* https://developer.ibm.com/answers/index.html
 	
 	* https://stackoverflow.com/
 	
