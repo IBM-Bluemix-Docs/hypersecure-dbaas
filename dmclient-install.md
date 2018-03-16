@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-03-13"
+lastupdated: "2017-03-16"
 
 ---
 
@@ -72,13 +72,23 @@ environment scripts for setting environment variables.
 Define the following environment variables:
 <dl>
   <dt> DBAAS_MANAGER_IP </dt>
-    <dd> Hostname or IP address of the DBaaS Manager. Valid host names are:
-<ul>
-<li>mgmt02.hypersecuredbaas.ibm.com</li>
-<li>mgmt03.hypersecuredbaas.ibm.com</li>
-<li>mgmt06.hypersecuredbaas.ibm.com</li>
-<li>mgmt07.hypersecuredbaas.ibm.com</li>
-</ul> </dd>
+    <dd> Hostname or IP address of the DBaaS Manager. Valid host names are:	       
+      <ul>
+        <li> REGION EU-GB
+	  <ul>
+            <li> mgmt02.hypersecuredbaas.ibm.com</li>
+            <li> mgmt03.hypersecuredbaas.ibm.com</li>
+          </ul>
+        </li>
+	      
+        <li> REGION US-SOUTH		
+          <ul>
+            <li> mgmt06.hypersecuredbaas.ibm.com</li>
+            <li> mgmt07.hypersecuredbaas.ibm.com</li>
+	  </ul>
+        </li>
+      </ul>		
+	</dd>
   <dt> DBAAS_MANAGER_PORT </dt>
     <dd> Port number of the DBaaS Manager. The valid port number is:
 <p>20000</p> </dd>
