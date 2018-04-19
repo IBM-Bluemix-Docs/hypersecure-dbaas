@@ -3,7 +3,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hyper-protect-dbaas" audience="service" href="/docs/services/hyper-protect-dbaas/index.html"}
+{: .toc subcollection="hypersecure-dbaas" audience="service" href="/docs/services/hypersecure-dbaas/index.html"}
 IBM Cloud Hyper Protect DBaaS
 
     {: .navgroup id="learn"}
