@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-03-16"
+  years: 2017, 2018
+lastupdated: "2017-04-12"
 
 ---
 
@@ -107,13 +107,13 @@ Define the following environment variables:
 Create a client environment script named openrc.
 
 Enter the following lines:
-<table>
+<table role="presentation">
   <tr>
     <td> # export DBAAS_MANAGER_IP=<*DBaaS_mgr_host_name*> </td>
   </tr><tr>
     <td> # export DBAAS_MANAGER_PORT=<*DBaaS_mgr_port_number*> </td>
   </tr><tr>
-    <td> # export API_KEY="<*api_key*>" </td>
+    <td> # export API_KEY=<*api_key*> </td>
   </tr><tr>
     <td> # export CPU_NUMBER=<*cpu_number*> </td>
   </tr><tr>

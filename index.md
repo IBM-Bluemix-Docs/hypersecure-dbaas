@@ -59,9 +59,9 @@ intelligently schedules your requests based on the available resources.
 
 You can address requests to the DBaaS Manager through one of these interfaces:
 <ul>
-<li>The [Web User Interface](../../../docs/services/hypersecure-dbaas/webui-cluster.html)</li>
-<li>The [RESTful API](../../../docs/services/hypersecure-dbaas/api.html)</li>
-<li>The [command-line interface](../../../docs/services/hypersecure-dbaas/dmclient-install.html) (CLI)</li>
+<li>The [Web User Interface](../../../docs/services/hyper-protect-dbaas/webui-cluster.html)</li>
+<li>The [RESTful API](../../../docs/services/hyper-protect-dbaas/api.html)</li>
+<li>The [command-line interface](../../../docs/services/hyper-protect-dbaas/dmclient-install.html) (CLI)</li>
 </ul>
 
 ## Accessing the database

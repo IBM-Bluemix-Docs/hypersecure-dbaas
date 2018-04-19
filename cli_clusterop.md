@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-12"
 
 ---
 
@@ -25,6 +25,7 @@ These are the cluster operation commands:
 {: #cluster_create}
 
 ### Description
+{: #cluster_create_desc}
 
 Creates a database cluster.
 
@@ -36,6 +37,7 @@ This command requires that you accept the IBM license. Therefore, when issuing t
 </code></pre>
 
 ### Usage
+{: #cluster_create_use}
 
 **cluster-create** *cluster_name* *admin_name* *admin_password*
 
@@ -49,10 +51,12 @@ This command requires that you accept the IBM license. Therefore, when issuing t
 {: #cluster_list}
 
 ### Description
+{: #cluster_list_desc}
 
 Lists all the clusters that have been created.
 
 ### Usage
+{: #cluster_list_use}
 **cluster-list**
 
 The command has no parameters.
@@ -61,10 +65,12 @@ The command has no parameters.
 {: #cluster_show}
 
 ### Description
+{: #cluster_show_desc}
 
 Shows the details of the specified cluster, including information about each replica member.  
 
 ### Usage
+{: #cluster_show_use}
 **cluster-show** *cluster_id*
 
 | Parameter        |  Description                                                    |
@@ -76,10 +82,12 @@ Shows the details of the specified cluster, including information about each rep
 {: #cluster_delete}
 
 ### Description
+{: #cluster_delete_desc}
 
 Deletes a cluster. Once the cluster is deleted, all the data is lost.
 
 ### Usage
+{: #cluster_delete_use}
 
 **cluster-delete** *cluster_id*
 
